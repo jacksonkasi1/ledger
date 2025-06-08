@@ -1,0 +1,11 @@
+
+project_id = "your-project-id"
+
+[functions.process-receipt]
+verify_jwt = false
+
+[functions.send-budget-alerts]
+verify_jwt = true
+
+[functions.export-data]
+verify_jwt = true
